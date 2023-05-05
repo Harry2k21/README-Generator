@@ -54,66 +54,66 @@ const questions = [
         console.log(data.NameOfProject)
         const template =
         `
-        # ${data.NameOfProject}
+# ${data.NameOfProject}
 
-        Created a Console for finanicalal analysis in javascript which uses data from a multidimensional array 
-        Link - https://harry2k21.github.io/README-Generator
+Created a Console for finanicalal analysis in javascript which uses data from a multidimensional array 
+Link - https://harry2k21.github.io/README-Generator
         
-        ## Preview
+## Preview
         
     
 
-        ## Description 
+## Description 
         
-        ${data.Description}
+${data.Description}
         
-        ## Table of Contents
-        
-        
-        * [Installation](#installation)
-        * [Usage](#usage)
-        * [License](#license)
-        * [Features](#Features)
-        * [Badges](#Badges)
-        * [Contributions](#Contributions)
-        * [Tests](#Tests)
-        * [Question](#Questions)
+## Table of Contents
         
         
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Features](#Features)
+* [Badges](#Badges)
+* [Contributions](#Contributions)
+* [Tests](#Tests)
+* [Question](#Questions)
         
-        ## Installation
         
-        ${data.Installation}
         
-        ## Usage
+## Installation
         
-        ${data.Usage}
+${data.Installation}
         
-        ## License
+## Usage
         
-        ${data.License}
+${data.Usage}
         
-        ## Badges
+## License
         
-        ![badmath](https://img.shields.io/github/languages/top/Harry2k21/README-Generator?style=plastic)
+${data.License}
         
-        ## Features
+## Badges
         
-        Creates a proffessional and unique README based on the users input in the node terminal
+![badmath](https://img.shields.io/github/languages/top/Harry2k21/README-Generator?style=plastic)
+        
+## Features
+        
+Creates a proffessional and unique README based on the users input in the node terminal
 
-        ## Contributions
+## Contributions
 
-        ${data.Contributors}
+${data.Contributors}
 
-        ## Tests
+## Tests
 
         ${data.Tests}
 
-        ## Questions
+## Questions
 
-        If you have any questions please feel free and to contact me below are my contact details
-        Email: ${data.Email}
-        Github: ${data.Github}
+If you have any questions please feel free and to contact me below are my contact details
+Email: ${data.Email}
+Github: ${data.Github}
         `
     
         fs.writeFile("README.md", template, function(err){
