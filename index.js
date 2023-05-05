@@ -62,7 +62,7 @@ const questions = [
 # ${data.NameOfProject}
 
 Generates Proffessional README's for unique projects
-Link - https://youtu.be/IBTM0W1kQ5o
+Link - https://youtu.be/Rn6wBkMWp4E
         
 ## Preview
         
