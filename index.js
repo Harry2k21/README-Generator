@@ -26,9 +26,9 @@ const questions = [
         question: "How can my project be used, providing a use case",
     },
     {
-        type: "input",
+        type: "list",
         name: "License",
-        question: "What License is this Project Under?",
+        choices: [new inquirer.Separator(), "Academic Free License v3.0", new inquirer.Separator(), "Apache license 2.0", new inquirer.Separator(), "Creative Commons license family", new inquirer.Separator(), "MIT", new inquirer.Separator(), "Mozilla Public License 2.0" ]
     },
     {
         type: "input",
@@ -56,12 +56,14 @@ const questions = [
         `
 # ${data.NameOfProject}
 
-Created a Console for finanicalal analysis in javascript which uses data from a multidimensional array 
-Link - https://harry2k21.github.io/README-Generator
+Generates Proffessional README's for unique projects
+Link - https://youtu.be/IBTM0W1kQ5o
         
 ## Preview
         
-    
+![image](https://user-images.githubusercontent.com/88850029/236582387-2f8848a5-5bc3-4ffc-b963-6dda6488dad0.png)
+![image](https://user-images.githubusercontent.com/88850029/236582502-69f9595d-2bef-4299-99a4-3c9bca49715c.png)
+   
 
 ## Description 
         
@@ -78,7 +80,6 @@ ${data.Description}
 * [Contributions](#Contributions)
 * [Tests](#Tests)
 * [Question](#Questions)
-        
         
         
 ## Installation
@@ -107,7 +108,7 @@ ${data.Contributors}
 
 ## Tests
 
-        ${data.Tests}
+${data.Tests}
 
 ## Questions
 

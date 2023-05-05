@@ -2,15 +2,17 @@
 # README Generator
 
 Generates Proffessional README's for unique projects
-Link - https://harry2k21.github.io/README-Generator
+Link - https://youtu.be/IBTM0W1kQ5o
         
 ## Preview
         
-    
+![image](https://user-images.githubusercontent.com/88850029/236582387-2f8848a5-5bc3-4ffc-b963-6dda6488dad0.png)
+![image](https://user-images.githubusercontent.com/88850029/236582502-69f9595d-2bef-4299-99a4-3c9bca49715c.png)
+   
 
 ## Description 
         
-Generates a README for your Github Coding Projects
+Generates a unique README for your Github Coding Projects
         
 ## Table of Contents
         
@@ -23,15 +25,15 @@ Generates a README for your Github Coding Projects
 * [Contributions](#Contributions)
 * [Tests](#Tests)
 * [Question](#Questions)
-                
+        
         
 ## Installation
         
 You can download it from my repository and clone it into your own VS code using the ssh key or download it as zip
         
 ## Usage
-
- To use the README Generator you need to open index.js in "Open Integrated Terminal" by left clicking on the file in VS code and open it in git bash and then run the command "node index.js" Then it should prompt you with inputs to fill out for the README to be Generated.
+        
+To use the README Generator you need to open index.js in "Open Integrated Terminal" by left clicking on the file in VS code and open it in git bash and then run the command "node index.js" Then it should prompt you with inputs to fill out for the README to be Generated.
         
 ## License
         
