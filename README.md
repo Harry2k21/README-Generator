@@ -1,7 +1,7 @@
 
         # README Generator
 
-        Created a Console for finanicalal analysis in javascript which uses data from a multidimensional array 
+        Generates Proffessional README's for unique projects
         Link - https://harry2k21.github.io/README-Generator
         
         ## Preview
@@ -20,6 +20,10 @@
         * [License](#license)
         * [Features](#Features)
         * [Badges](#Badges)
+        * [Contributions](#Contributions)
+        * [Tests](#Tests)
+        * [Question](#Questions)
+        
         
         
         
@@ -29,11 +33,11 @@
         
         ## Usage
         
-          To use the README Generator you need to open index.js in "Open Integrated Terminal" by left clicking on the file in VS code and open it in git bash and then run the command "node index.js" Then it should prompt you with inputs to fill out for the README to be Generated.
+        To use the README Generator you need to open index.js in "Open Integrated Terminal" by left clicking on the file in VS code and open it in git bash and then run the command "node index.js" Then it should prompt you with inputs to fill out for the README to be Generated.
         
         ## License
         
-          MIT
+        MIT
         
         ## Badges
         
