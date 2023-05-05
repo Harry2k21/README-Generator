@@ -3,8 +3,9 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// array of questions for user
+// Array of questions for user to input using inquirer
 const questions = [
+    //Main prompt for user using inquirer package
     inquirer.prompt([{
         type: "input",
         name: "NameOfProject",
@@ -26,6 +27,7 @@ const questions = [
         question: "How can my project be used, providing a use case",
     },
     {
+        //Changed question to choices for the user to pick their choice instead of typing it in
         type: "list",
         name: "License",
         choices: [new inquirer.Separator(), "Academic Free License v3.0", new inquirer.Separator(), "Apache license 2.0", new inquirer.Separator(), "Creative Commons license family", new inquirer.Separator(), "MIT", new inquirer.Separator(), "Mozilla Public License 2.0" ]
@@ -50,8 +52,11 @@ const questions = [
         name: "Github",
         question: "Please Enter Your Github username",
     },
+    //This .then function collects all data in the const variable and helps store it for later use
     ]).then(function(data){
+        //console.log checks if function is working and if it outputs sample data
         console.log(data.NameOfProject)
+        // Variable to store all output and ${template.literals} that act as variables which link to the .then function
         const template =
         `
 # ${data.NameOfProject}
@@ -116,21 +121,22 @@ If you have any questions please feel free and to contact me below are my contac
 Email: ${data.Email}
 Github: ${data.Github}
         `
-    
+//Main function which creates the readme file and uses the .writefile function to write all output in the template const
+// and then uses a call back function to check for errors and if not console.log successfully lo
         fs.writeFile("README.md", template, function(err){
             err ? console.error(err) : console.log('Successfully logged!')
         })
     })
 ];
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
+// // function to write README file
+// function writeToFile(fileName, data) {
+// }
 
-// function to initialize program
-function init() {
+// // function to initialize program
+// function init() {
 
-}
+// }
 
-// function call to initialize program
-init();
+// // function call to initialize program
+// init();
