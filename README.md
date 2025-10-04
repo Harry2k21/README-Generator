@@ -2,7 +2,7 @@
 # README Generator
 
 Generates Proffessional README's for unique projects
-Link - https://youtu.be/IBTM0W1kQ5o
+Link - [https://youtu.be/IBTM0W1kQ5o](https://www.youtube.com/watch?v=Rn6wBkMWp4E)
         
 ## Preview
 
